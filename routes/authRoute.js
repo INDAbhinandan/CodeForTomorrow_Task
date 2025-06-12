@@ -9,7 +9,7 @@ const router = express.Router()
 
 // routing
 router.post('/register', registerController)
-router.post('/login', loginController)
+router.get('/login', loginController)
 
 
 export default router
